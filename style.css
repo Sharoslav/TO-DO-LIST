@@ -1,0 +1,50 @@
+body {
+  background: salmon;
+}
+.container {
+  text-align: center;
+  border: 2px solid white;
+  width: 25%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3vw;
+  margin-bottom: 15%;
+}
+.input {
+  margin-bottom: 10px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+.btn {
+  border: 1px solid #fff;
+  background: transparent;
+  border-radius: 10px;
+}
+.btn:hover {
+  background: slategray;
+  color: #fff;
+}
+.inputTitle {
+  background-color: salmon;
+  border: 0;
+  border-bottom: 2px solid white;
+  margin-bottom: 5%;
+}
+.inputBody {
+  background-color: salmon;
+  border: 0;
+  border-bottom: 2px solid white;
+  margin-bottom: 5%;
+}
+.title {
+  font-size: 2vw;
+  margin-top: 10%;
+}
+.article {
+  font-size: 1.5vw;
+}
